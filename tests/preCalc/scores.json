@@ -1,0 +1,52 @@
+{
+  "1493345": {
+    "Kionell": {
+      "NM": {
+        "aimPP": 141.90,
+        "tapPP": 60.10,
+        "accPP": 127.50,
+        "totalPP": 241.40
+      }
+    }
+  },
+  "1695382": {
+    "aetrna": {
+      "NCHD": {
+        "aimPP": 539.30,
+        "tapPP": 668.90,
+        "accPP": 273.80,
+        "totalPP": 1087.20
+      }
+    }
+  },
+  "1528842": {
+    "im a fancy lad": {
+      "HR": {
+        "aimPP": 742.60,
+        "tapPP": 69.50,
+        "accPP": 192.40,
+        "totalPP": 843.70
+      }
+    }
+  },
+  "129891": {
+    "chocomint": {
+      "HDHR": {
+        "aimPP": 484.10,
+        "tapPP": 366.20,
+        "accPP": 307.00,
+        "totalPP": 833.00
+      }
+    }
+  },
+  "2058788": {
+    "FGSky": {
+      "DTHDHRFL": {
+        "aimPP": 849.10,
+        "tapPP": 103.30,
+        "accPP": 144.50,
+        "totalPP": 938.00
+      }
+    }
+  }
+}

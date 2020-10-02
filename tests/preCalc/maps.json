@@ -1,0 +1,392 @@
+{
+  "1695382": {
+    "NCHD": {
+      "difficulty": {
+        "aimStars": 8.94,
+        "tapStars": 9.06,
+        "fingerStars": 5.72,
+        "totalStars": 9.63
+      },
+      "performance": [
+        {
+          "aimPP": 581.41,
+          "tapPP": 636.59,
+          "accPP": 165.78,
+          "totalPP": 1041.64
+        },
+        {
+          "aimPP": 591.79,
+          "tapPP": 648.69,
+          "accPP": 175.43,
+          "totalPP": 1063.63
+        },
+        {
+          "aimPP": 601.03,
+          "tapPP": 646.40,
+          "accPP": 183.00,
+          "totalPP": 1072.20
+        },
+        {
+          "aimPP": 611.23,
+          "tapPP": 651.14,
+          "accPP": 192.64,
+          "totalPP": 1088.20
+        },
+        {
+          "aimPP": 623.95,
+          "tapPP": 664.13,
+          "accPP": 206.58,
+          "totalPP": 1114.81
+        },
+        {
+          "aimPP": 635.48,
+          "tapPP": 662.85,
+          "accPP": 217.98,
+          "totalPP": 1127.97
+        },
+        {
+          "aimPP": 648.32,
+          "tapPP": 670.21,
+          "accPP": 233.24,
+          "totalPP": 1150.99
+        },
+        {
+          "aimPP": 664.50,
+          "tapPP": 690.01,
+          "accPP": 257.12,
+          "totalPP": 1190.78
+        },
+        {
+          "aimPP": 679.18,
+          "tapPP": 696.71,
+          "accPP": 278.74,
+          "totalPP": 1218.16
+        },
+        {
+          "aimPP": 695.70,
+          "tapPP": 720.07,
+          "accPP": 311.97,
+          "totalPP": 1266.31
+        },
+        {
+          "aimPP": 716.97,
+          "tapPP": 778.56,
+          "accPP": 382.39,
+          "totalPP": 1366.34
+        }
+      ]
+    }
+  },
+  "2444148": {
+    "HDDTHR": {
+      "difficulty": {
+        "aimStars": 9.88,
+        "tapStars": 4.62,
+        "fingerStars": 3.41,
+        "totalStars": 9.56
+      },
+      "performance": [
+        {
+          "aimPP": 813.78,
+          "tapPP": 78.25,
+          "accPP": 111.51,
+          "totalPP": 881.58
+        },
+        {
+          "aimPP": 826.62,
+          "tapPP": 78.52,
+          "accPP": 117.67,
+          "totalPP": 896.85
+        },
+        {
+          "aimPP": 840.33,
+          "tapPP": 78.78,
+          "accPP": 124.56,
+          "totalPP": 913.30
+        },
+        {
+          "aimPP": 855.03,
+          "tapPP": 79.02,
+          "accPP": 132.36,
+          "totalPP": 931.11
+        },
+        {
+          "aimPP": 870.80,
+          "tapPP": 79.27,
+          "accPP": 141.29,
+          "totalPP": 950.5
+        },
+        {
+          "aimPP": 887.84,
+          "tapPP": 79.53,
+          "accPP": 151.69,
+          "totalPP": 971.82
+        },
+        {
+          "aimPP": 906.34,
+          "tapPP": 79.85,
+          "accPP": 164.06,
+          "totalPP": 995.52
+        },
+        {
+          "aimPP": 926.36,
+          "tapPP": 80.33,
+          "accPP": 179.24,
+          "totalPP": 1022.11
+        },
+        {
+          "aimPP": 948.13,
+          "tapPP": 81.19,
+          "accPP": 198.65,
+          "totalPP": 1052.59
+        },
+        {
+          "aimPP": 971.88,
+          "tapPP": 82.87,
+          "accPP": 225.26,
+          "totalPP": 1088.90
+        },
+        {
+          "aimPP": 997.95,
+          "tapPP": 86.40,
+          "accPP": 266.67,
+          "totalPP": 1135.83
+        }
+      ]
+    }
+  },
+  "132946": {
+    "NM": {
+      "difficulty": {
+        "aimStars": 5.01,
+        "tapStars": 5.03,
+        "fingerStars": 4.10,
+        "totalStars": 5.45
+      },
+      "performance": [
+        {
+          "aimPP": 93.72,
+          "tapPP": 80.58,
+          "accPP": 59.17,
+          "totalPP": 167.95
+        },
+        {
+          "aimPP": 95.58,
+          "tapPP": 82.44,
+          "accPP": 62.47,
+          "totalPP": 172.65
+        },
+        {
+          "aimPP": 97.43,
+          "tapPP": 82.16,
+          "accPP": 65.76,
+          "totalPP": 176.12
+        },
+        {
+          "aimPP": 99.54,
+          "tapPP": 83.86,
+          "accPP": 69.99,
+          "totalPP": 181.68
+        },
+        {
+          "aimPP": 101.66,
+          "tapPP": 83.85,
+          "accPP": 74.34,
+          "totalPP": 186.15
+        },
+        {
+          "aimPP": 104.13,
+          "tapPP": 84.87,
+          "accPP": 79.89,
+          "totalPP": 192.45
+        },
+        {
+          "aimPP": 106.86,
+          "tapPP": 87.09,
+          "accPP": 86.95,
+          "totalPP": 200.87
+        },
+        {
+          "aimPP": 109.63,
+          "tapPP": 87.9,
+          "accPP": 94.88,
+          "totalPP": 209.03
+        },
+        {
+          "aimPP": 112.90,
+          "tapPP": 91.73,
+          "accPP": 106.92,
+          "totalPP": 222.65
+        },
+        {
+          "aimPP": 116.32,
+          "tapPP": 95.09,
+          "accPP": 123.03,
+          "totalPP": 239.25
+        },
+        {
+          "aimPP": 120.91,
+          "tapPP": 104.81,
+          "accPP": 159.5,
+          "totalPP": 276.96
+        }
+      ]
+    }
+  },
+  "124501": {
+    "DT": {
+      "difficulty": {
+        "aimStars": 5.09,
+        "tapStars": 7.59,
+        "fingerStars": 5.06,
+        "totalStars": 7.45
+      },
+      "performance": [
+        {
+          "aimPP": 80.50,
+          "tapPP": 302.71,
+          "accPP": 98.58,
+          "totalPP": 375.32
+        },
+        {
+          "aimPP": 81.92,
+          "tapPP": 309.88,
+          "accPP": 104.42,
+          "totalPP": 385.86
+        },
+        {
+          "aimPP": 83.08,
+          "tapPP": 308.87,
+          "accPP": 108.49,
+          "totalPP": 387.7
+        },
+        {
+          "aimPP": 84.67,
+          "tapPP": 316.29,
+          "accPP": 115.81,
+          "totalPP": 399.45
+        },
+        {
+          "aimPP": 85.99,
+          "tapPP": 315.44,
+          "accPP": 121.03,
+          "totalPP": 402.25
+        },
+        {
+          "aimPP": 87.82,
+          "tapPP": 323.75,
+          "accPP": 130.72,
+          "totalPP": 416.41
+        },
+        {
+          "aimPP": 89.70,
+          "tapPP": 328.96,
+          "accPP": 141.04,
+          "totalPP": 428.19
+        },
+        {
+          "aimPP": 91.38,
+          "tapPP": 329.96,
+          "accPP": 149.91,
+          "totalPP": 435.28
+        },
+        {
+          "aimPP": 93.75,
+          "tapPP": 344.18,
+          "accPP": 168.09,
+          "totalPP": 460.57
+        },
+        {
+          "aimPP": 95.75,
+          "tapPP": 349.86,
+          "accPP": 183.50,
+          "totalPP": 476.47
+        },
+        {
+          "aimPP": 98.68,
+          "tapPP": 378.05,
+          "accPP": 222.46,
+          "totalPP": 528.67
+        }
+      ]
+    }
+  },
+  "91": {
+    "NM": {
+      "difficulty": {
+        "aimStars": 1.07,
+        "tapStars": 0.25,
+        "fingerStars": 0.10,
+        "totalStars": 1.04
+      },
+      "performance": [
+        {
+          "aimPP": 0.58,
+          "tapPP": 0.01,
+          "accPP": 1.47,
+          "totalPP": 1.75
+        },
+        {
+          "aimPP": 0.59,
+          "tapPP": 0.01,
+          "accPP": 1.62,
+          "totalPP": 1.91
+        },
+        {
+          "aimPP": 0.59,
+          "tapPP": 0.01,
+          "accPP": 1.54,
+          "totalPP": 1.83
+        },
+        {
+          "aimPP": 0.60,
+          "tapPP": 0.01,
+          "accPP": 1.62,
+          "totalPP": 1.91
+        },
+        {
+          "aimPP": 0.62,
+          "tapPP": 0.01,
+          "accPP": 1.80,
+          "totalPP": 2.09
+        },
+        {
+          "aimPP": 0.61,
+          "tapPP": 0.01,
+          "accPP": 1.71,
+          "totalPP": 2.00
+        },
+        {
+          "aimPP": 0.63,
+          "tapPP": 0.01,
+          "accPP": 1.80,
+          "totalPP": 2.10
+        },
+        {
+          "aimPP": 0.65,
+          "tapPP": 0.01,
+          "accPP": 2.03,
+          "totalPP": 2.33
+        },
+        {
+          "aimPP": 0.64,
+          "tapPP": 0.01,
+          "accPP": 1.91,
+          "totalPP": 2.21
+        },
+        {
+          "aimPP": 0.66,
+          "tapPP": 0.01,
+          "accPP": 2.03,
+          "totalPP": 2.34
+        },
+        {
+          "aimPP": 0.68,
+          "tapPP": 0.01,
+          "accPP": 2.33,
+          "totalPP": 2.64
+        }
+      ]
+    }
+  }
+}

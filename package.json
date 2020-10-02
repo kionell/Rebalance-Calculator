@@ -1,0 +1,31 @@
+{
+  "author": {
+    "name": "Kionell"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "node-osu": "^2.2.0",
+    "osu-bpdpc": "git+https://github.com/kionell/osu-bpdpc.git"
+  },
+  "deprecated": false,
+  "description": "delta_t's osu rebalance calculator for JS",
+  "devDependencies": {
+    "jest": "^26.4.2",
+    "typescript": "^4.0.3"
+  },
+  "keywords": [
+    "osu",
+    "rebalance",
+    "rebalance",
+    "calculator",
+    "osu-rebalance",
+    "delta_t"
+  ],
+  "license": "MIT",
+  "main": "./lib/entry.js",
+  "name": "osu-rebalance",
+  "scripts": {
+    "test": "jest"
+  },
+  "version": "1.0.0"
+}
