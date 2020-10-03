@@ -21,11 +21,15 @@
     "osu-rebalance",
     "delta_t"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kionell/Rebalance-Calculator.git"
+  },
   "license": "MIT",
   "main": "./lib/entry.js",
   "name": "osu-rebalance",
   "scripts": {
     "test": "jest"
   },
-  "version": "1.1.0"
+  "version": "1.1.1"
 }
