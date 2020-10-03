@@ -1,11 +1,11 @@
-import Beatmap, {HitObject} from 'osu-bpdpc/src/Beatmap';
+import {HitObject} from 'osu-bpdpc/src/Beatmap';
 
-export default class BeatmapTemplate
+export default class Beatmap
 {
   /**
-   * Builds a complete Beatmap object from an .osu file
+   * Builds a Beatmap object from an .osu file
    */
-  constructor(parsed: Beatmap);
+  constructor(path: string);
   CS: number;
   HP: number;
   OD: number;
