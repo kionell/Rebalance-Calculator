@@ -56,7 +56,7 @@ console.log(performance.totalPP);   // 1366.343694809782
 ### Score calculation
 
 ```javascript
-const {Difficulty, Performance, Mods, Beatmap, getUserScores} = require('../lib/entry');
+const {Difficulty, Performance, Mods, Beatmap, getUserScores} = require('osu-rebalance');
 
 // Kionell: REOL - Endless Line (DeRandom Otaku) [Infinite] + NM
 const beatmap = new Beatmap('./tests/maps/1493345.osu');
@@ -82,4 +82,4 @@ scores.then(score => {
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/kionell/Rebalance-Calculator/blob/master/LICENSE) file for details
