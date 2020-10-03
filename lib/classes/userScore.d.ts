@@ -6,6 +6,13 @@ export default class UserScore extends Score
   constructor(score: IApiScoreOptions);
 
   username: string;
+  userId: string | number;
+  date: string;
+  livePP: string | number;
+  rank: string | number;
+  score: string | number;
+  mapId: string | number;
+  position: string | number;
 }
 
 export interface IApiScoreOptions
