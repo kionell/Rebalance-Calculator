@@ -1,6 +1,11 @@
 import UserScore from "../classes/userScore";
 
 /**
- * Makes a call to osu api v1 and tries to get data about a beatmap.
+ * Parse osu api user scores to get the UserScore objects.
  */
-export default function getUserScoresFromApi(options: object): Promise<UserScore>;
+export default function getUserScores(options: object): Promise<UserScore[]>;
+
+/**
+ * Try to get user scores from osu api.
+ */
+declare function requestBanchoScores(options: object): Promise<object[]>;
