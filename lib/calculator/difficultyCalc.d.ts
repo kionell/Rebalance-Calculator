@@ -17,8 +17,11 @@ export default class DifficultyCalculator
   /**
    * Creates new instance of Rebalance Difficulty Calculator.
    */
-  constructor(beatmap: Beatmap, mods: string | string[] | number | Mods);
+  constructor(beatmap: Beatmap, mods?: string | string[] | number | Mods);
 
+  beatmap: Beatmap;
+  mods: Mods;
+  
   /**
    * Calculates difficulty attributes.
    */

@@ -26,7 +26,10 @@ export default class PerformanceCalculator
   /**
    * Creates new instance of Rebalance Performance Calculator.
    */
-  constructor(beatmap: Beatmap, mods: string | string[] | number | Mods);
+  constructor(beatmap: Beatmap, mods?: string | string[] | number | Mods);
+
+  beatmap: Beatmap;
+  mods: Mods;
 
   /**
    * Calculates performance attributes.
