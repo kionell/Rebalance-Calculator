@@ -25,7 +25,7 @@ export default class DifficultyCalculator
   /**
    * Calculates difficulty attributes.
    */
-  calculate(): Difficulty;
+  calculate(totalHits?: number): Difficulty;
 
   private applyMods(mods: Mods): IModStats;
 }
