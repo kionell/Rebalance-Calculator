@@ -2,6 +2,10 @@
   "author": {
     "name": "Kionell"
   },
+  "engines": {
+    "node": ">=8.3.0",
+    "npm": ">=5.3.0"
+  },
   "bundleDependencies": false,
   "dependencies": {
     "node-osu": "^2.2.0",
@@ -31,5 +35,5 @@
   "scripts": {
     "test": "jest"
   },
-  "version": "1.1.5"
+  "version": "1.1.6"
 }

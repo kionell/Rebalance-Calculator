@@ -6,6 +6,10 @@ JavaScript library for calculating difficulty and performance of beatmaps and sc
 
 Get your osu api key from: https://osu.ppy.sh/p/api
 
+### Requirements
+
+- Node.js 8.3.0+
+
 ### Installing
 
 In your project add the dependency
