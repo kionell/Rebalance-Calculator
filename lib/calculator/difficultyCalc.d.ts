@@ -8,26 +8,35 @@ import {ITapAtts} from '../calculator/skills/tap';
 
 export default class DifficultyCalculator
 {
-  private static readonly aim_multiplier: number;
-  private static readonly tap_multiplier: number;
-  private static readonly finger_control_multiplier: number;
-
-  private static readonly sr_exponent: number;
-
   /**
    * Creates new instance of Rebalance Difficulty Calculator.
+   * @param beatmap Beatmap object.
+   * @param mods Mods object or raw mods.
    */
-  constructor(beatmap: Beatmap, mods?: string | string[] | number | Mods);
+  constructor(beatmap?: Beatmap, mods?: string | string[] | number | Mods);
 
   beatmap: Beatmap;
   mods: Mods;
   
   /**
    * Calculates difficulty attributes.
+   * @param totalHits The number of objects to which the map will be calculated
    */
   calculate(totalHits?: number): Difficulty;
 
-  private applyMods(mods: Mods): IModStats;
+  /**
+   * Beatmap setter.
+   * @param beatmap Beatmap object.
+   */
+  setBeatmap(beatmap: Beatmap): void;
+
+  /**
+   * Mods setter.
+   * @param mods Mods object or raw mods.
+   */
+  setMods(mods: string | string[] | number | Mods): void;
+
+  private _applyMods(mods: Mods): IModStats;
 }
 
 export interface IModStats

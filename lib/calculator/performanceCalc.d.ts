@@ -9,38 +9,39 @@ import Performance from '../classes/performance';
 export default class PerformanceCalculator
 {
   /**
-   * Aim, tap and acc values are combined using power mean with this as the exponent.
-   */
-  private static readonly total_value_exponent: number;
-
-  /**
-   * This exponent is used to convert throughput to aim pp and tap skill to tap pp.
-   */
-  private static readonly skill_to_pp_exponent: number;
-
-  /**
-   * The first 0.5 miss doesn't count when we penalize misses.
-   */
-  private static readonly miss_count_leniency: number;
-
-  /**
    * Creates new instance of Rebalance Performance Calculator.
+   * @param beatmap Beatmap object.
+   * @param mods Mods object or raw mods.
    */
-  constructor(beatmap: Beatmap, mods?: string | string[] | number | Mods);
+  constructor(beatmap?: Beatmap, mods?: string | string[] | number | Mods);
 
   beatmap: Beatmap;
   mods: Mods;
 
   /**
    * Calculates performance attributes.
+   * @param difficulty Calculated difficulty.
+   * @param score Score template or user score.
    */
   calculate(difficulty: Difficulty, score: Score | UserScore): Performance;
+  
+  /**
+   * Beatmap setter.
+   * @param beatmap Beatmap object.
+   */
+  setBeatmap(beatmap: Beatmap): void;
 
-  private computeAimValue(difficulty: Difficulty, score: Score | UserScore): number;
-  private computeTapValue(difficulty: Difficulty, score: Score | UserScore): number;
-  private computeAccuracyValue(difficulty: Difficulty, score: Score | UserScore): number;
+  /**
+   * Mods setter.
+   * @param mods Mods object or raw mods.
+   */
+  setMods(mods: string | string[] | number | Mods): void;
 
-  private getModifiedAcc(score): number;
-  private tpToPP(tp): number;
-  private tapSkillToPP(tapSkill): number;
+  private _computeAimValue(difficulty: Difficulty, score: Score | UserScore): number;
+  private _computeTapValue(difficulty: Difficulty, score: Score | UserScore): number;
+  private _computeAccuracyValue(difficulty: Difficulty, score: Score | UserScore): number;
+
+  private _getModifiedAcc(score): number;
+  private _tpToPP(tp): number;
+  private _tapSkillToPP(tapSkill): number;
 }
