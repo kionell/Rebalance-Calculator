@@ -4,8 +4,11 @@ export default class Beatmap
 {
   /**
    * Builds a Beatmap object from an .osu file
+   * @param data Beatmap path or raw data.
+   * @param raw Is this a raw data?
    */
-  constructor(path: string);
+  constructor(data: string, raw: boolean);
+  
   CS: number;
   HP: number;
   OD: number;
