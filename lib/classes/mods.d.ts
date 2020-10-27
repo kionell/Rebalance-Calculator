@@ -1,9 +1,14 @@
 export default class Mods
 {
-  private mods: number | string | string[];
+  private _mods: number | string | string[];
 
+  /**
+   * New Mods instance
+   * @param mods Raw mods.
+   */
   constructor(mods: number | string | string[]);
 
+  toString(): string;
   toJSON(): string;
 
   /**
@@ -29,12 +34,12 @@ export default class Mods
   /**
    * Parses bitwise number to get info about mods.
    */
-  private parseBitwise(bitwise: number): number;
+  private _parseBitwise(bitwise: number): number;
 
   /**
    * Parses the received data and outputs information about mods
    */
-  private getModInfo(mods: number | string | string[]): ICodes;
+  private _getModInfo(mods: number | string | string[]): ICodes;
 }
 
 export interface ICodes
